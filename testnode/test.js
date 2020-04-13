@@ -25,7 +25,7 @@ try {
 }
 
 const chainid =
-    "2e13ba07b457f2e284dcfcbd3d4a3e4d78a6ed89a61006cdb7fdad6d67ef0b12";
+    "ea1ecf2d8a22d5894280aca2327423f42226e0ecf656f4869972c1c83b6f2a63";
 
 ChainConfig.setChainId(
     // "fe70279c1d9850d4ddb6ca1f00c577bc2e86bf33d54fafd4c606a6937b89ae32"
@@ -33,7 +33,7 @@ ChainConfig.setChainId(
     "ea1ecf2d8a22d5894280aca2327423f42226e0ecf656f4869972c1c83b6f2a63" // mainnet
 );
 
-let nodeApiUrl = "ws://localhost:8090";
+let nodeApiUrl = "wss://node.whitecoin.info/";
 
 ChainConfig.address_prefix = "XWC";
 ChainConfig.expire_in_secs = 5 * 60; // 5 min
